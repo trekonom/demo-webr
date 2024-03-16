@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "demo-webr.html",
+    "href": "demo-webr.html",
+    "title": "webR in Quarto HTML Documents",
+    "section": "",
+    "text": "This is a webr-enabled code cell in a Quarto HTML document.\n\nlibrary(ggplot2)\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  }
+]
