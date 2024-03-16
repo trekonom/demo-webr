@@ -1,5 +1,4 @@
 project:
+  type: website
+  output-dir: docs
   title: "demo-webr"
-
-editor: visual
-
