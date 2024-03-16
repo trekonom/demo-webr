@@ -1,6 +1,6 @@
 ---
 title: webR in Quarto HTML Documents
-format: html
+format: revealjs
 engine: knitr
 execute: 
   freeze: auto
