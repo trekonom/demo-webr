@@ -3,9 +3,7 @@
   "result": {
     "engine": "knitr",
     "markdown": "---\ntitle: webR in Quarto HTML Documents\nformat: html\nengine: knitr\nexecute: \n  freeze: auto\nfilters:\n  - webr\nwebr: \n  show-startup-message: true\n  packages: [\"ggplot2\"]\n---\n\n\nThis is a webr-enabled code cell in a Quarto HTML document.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n```\n:::\n\n\n```{webr-r}\nggplot()\n```\n",
-    "supporting": [
-      "demo-webr_files"
-    ],
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
