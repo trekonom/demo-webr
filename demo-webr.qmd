@@ -1,0 +1,22 @@
+---
+title: webR in Quarto HTML Documents
+format: html
+engine: knitr
+execute: 
+  freeze: auto
+filters:
+  - webr
+webr: 
+  show-startup-message: true
+  packages: ["ggplot2"]
+---
+
+This is a webr-enabled code cell in a Quarto HTML document.
+
+```{r}
+library(ggplot2)
+```
+
+```{webr-r}
+ggplot()
+```
